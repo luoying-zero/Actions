@@ -31,4 +31,4 @@ jobs:
         pip install shazamio
     - name: Test with pytest
       run: |
-        python main.py ${{inputs.name}}
+        python ${{inputs.name}}
